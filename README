@@ -1,0 +1,19 @@
+FPGA based 32-channel pulse counter
+
+Data format
+2 bytes – preamble (DEAD)
+1 byte  – command
+4 bytes – active channels mask
+2 bytes – DAC code
+1 byte  – calibration flag
+4 bytes * number of active channels – count
+
+Command format
+2 bytes – preamble (DEAF)
+1 byte  – command
+4 bytes – active channels mask
+2 bytes – DAC code
+1 byte  – count time
+2 bytes – count step
+2 bytes – number of steps
+1 byte  – calibration flag
