@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/sopc_epcs_boot_rom.dat" type="DAT" initParamName="INIT_FILE" memoryPath="epcs" />
+<file path="hdl_sim/sopc_onchip_mem.dat" type="DAT" initParamName="INIT_FILE" memoryPath="onchip_mem" />
+<file path="hdl_sim/sopc_epcs_boot_rom.hex" type="HEX" initParamName="INIT_FILE" memoryPath="epcs" />
+<file path="sopc_onchip_mem.hex" type="HEX" initParamName="INIT_FILE" memoryPath="onchip_mem" />
+</simPackage>

@@ -1,0 +1,812 @@
+Archive member included because of file (symbol)
+
+/home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+                              obj/default/simple_server.o (__mulsi3)
+/home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+                              obj/default/simple_server.o (memset)
+../eth_bsp//libhal_bsp.a(alt_load.o)
+                              ../eth_bsp//obj/HAL/src/crt0.o (alt_load)
+../eth_bsp//libhal_bsp.a(alt_main.o)
+                              ../eth_bsp//obj/HAL/src/crt0.o (alt_main)
+../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+                              ../eth_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../eth_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+                              obj/default/simple_server.o (alt_avalon_spi_command)
+../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../eth_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../eth_bsp//libhal_bsp.a(alt_dev.o)
+                              ../eth_bsp//libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../eth_bsp//libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../eth_bsp//libhal_bsp.a(alt_errno.o)
+                              ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o) (alt_errno)
+../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              ../eth_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+                              ../eth_bsp//libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../eth_bsp//libhal_bsp.a(alt_open.o)
+                              ../eth_bsp//libhal_bsp.a(alt_io_redirect.o) (open)
+../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+                              ../eth_bsp//libhal_bsp.a(alt_io_redirect.o) (alt_release_fd)
+../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../eth_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+                              ../eth_bsp//libhal_bsp.a(alt_open.o) (alt_find_dev)
+../eth_bsp//libhal_bsp.a(alt_find_file.o)
+                              ../eth_bsp//libhal_bsp.a(alt_open.o) (alt_find_file)
+../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+                              ../eth_bsp//libhal_bsp.a(alt_open.o) (alt_get_fd)
+/home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+                              ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o) (errno)
+/home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+                              ../eth_bsp//libhal_bsp.a(alt_find_dev.o) (memcmp)
+/home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+                              ../eth_bsp//libhal_bsp.a(alt_find_dev.o) (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+bufUDP              0x12d             obj/default/simple_server.o
+buf                 0x12d             obj/default/simple_server.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+epcs             0x00000000         0x00000800
+reset            0x00020000         0x00000020
+onchip_mem       0x00020020         0x0000a7d8
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../eth_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/ip_arp_udp_tcp.o
+LOAD obj/default/main.o
+LOAD obj/default/simple_server.o
+LOAD /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libstdc++.a
+LOAD /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libm.a
+LOAD /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a
+START GROUP
+LOAD /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a
+LOAD /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a
+LOAD ../eth_bsp//libhal_bsp.a
+END GROUP
+LOAD /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a
+                0x00000000                __alt_mem_epcs = 0x0
+                0x00020000                __alt_mem_onchip_mem = 0x20000
+
+.entry          0x00020000       0x20
+ *(.entry)
+ .entry         0x00020000       0x20 ../eth_bsp//obj/HAL/src/crt0.o
+                0x00020000                __reset
+                0x0002000c                _exit
+
+.exceptions     0x00020020        0x0
+                0x00020020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00020020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x00020020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00020020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00020020     0x4634
+                0x00020020                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00020020       0x3c ../eth_bsp//obj/HAL/src/crt0.o
+                0x00020020                _start
+ .text          0x0002005c      0xf40 obj/default/ip_arp_udp_tcp.o
+                0x0002005c                checksum
+                0x0002019c                init_ip_arp_udp_tcp
+                0x00020250                eth_type_is_arp_and_my_ip
+                0x00020318                eth_type_is_ip_and_my_ip
+                0x000203fc                make_eth
+                0x00020484                fill_ip_hdr_checksum
+                0x00020530                make_ip
+                0x000205cc                make_tcphead
+                0x000207f0                make_arp_answer_from_request
+                0x00020920                make_echo_reply_from_request
+                0x000209bc                make_udp_reply_from_request
+                0x00020b34                make_tcp_synack_from_syn
+                0x00020bf8                get_tcp_data_pointer
+                0x00020c2c                init_len_info
+                0x00020cc4                fill_tcp_data_p
+                0x00020d40                fill_tcp_data
+                0x00020dbc                make_tcp_ack_from_any
+                0x00020eb4                make_tcp_ack_with_data
+ .text          0x00020f9c       0x90 obj/default/main.o
+                0x00020f9c                SPI2_Init
+                0x00020fc4                Delay
+                0x00020ffc                main
+ .text          0x0002102c     0x26c4 obj/default/simple_server.o
+                0x0002102c                _Delay
+                0x00021064                SPI2_Write
+                0x000210b4                SPI2_Read
+                0x00021108                enc28j60ReadOp
+                0x000211a8                enc28j60WriteOp
+                0x00021234                enc28j60ReadBuffer
+                0x000212c4                enc28j60WriteBuffer
+                0x00021354                enc28j60SetBank
+                0x000213d0                enc28j60Read
+                0x00021418                enc28j60Write
+                0x00021470                enc28j60PhyWrite
+                0x000214f8                enc28j60clkout
+                0x00021538                enc28j60Init
+                0x00021800                enc28j60getrev
+                0x0002182c                enc28j60PacketSend
+                0x000218fc                enc28j60PacketReceive
+                0x00021aac                readAddr
+                0x00021ad0                readData
+                0x00021af4                clearSignal
+                0x00021b1c                clearAddr
+                0x00021b44                clearData
+                0x00021b6c                sendSignal
+                0x00021ba8                sendData
+                0x00021be8                sendData32
+                0x00021c24                sendAddr
+                0x00021c64                readCounter
+                0x00021cf4                readDAC
+                0x00021dcc                resetDAC
+                0x00021e18                initDACChannel
+                0x00021ecc                initDAC
+                0x00021f70                sendCalibDAC
+                0x000220bc                resetCounter
+                0x00022108                initCounter
+                0x00022194                sendRun
+                0x00022208                sendFreq
+                0x00022278                sendGate
+                0x000222ec                writeResponse
+                0x00022368                writeInt
+                0x000223ec                makeCharResponse
+                0x00022460                makeIntResponse
+                0x000224e4                writeDACValues
+                0x000226cc                makeCountResponse
+                0x000227ec                readDACValues
+                0x00022a0c                parseRun
+                0x00022b58                simple_server
+ .text          0x000236f0       0x28 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+                0x000236f0                __mulsi3
+ .text          0x00023718       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+                0x00023718                memset
+ .text          0x00023738       0xec ../eth_bsp//libhal_bsp.a(alt_load.o)
+                0x000237a4                alt_load
+ .text          0x00023824       0x68 ../eth_bsp//libhal_bsp.a(alt_main.o)
+                0x00023824                alt_main
+ .text          0x0002388c       0xa8 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x000238c4                alt_irq_init
+                0x000238f8                alt_sys_init
+ .text          0x00023934       0xc0 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00023934                altera_avalon_jtag_uart_read_fd
+                0x00023994                altera_avalon_jtag_uart_write_fd
+ .text          0x000239f4       0xf4 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x000239f4                altera_avalon_jtag_uart_read
+ .text          0x00023ae8       0x98 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00023ae8                altera_avalon_jtag_uart_write
+ .text          0x00023b80      0x208 ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+                0x00023b80                alt_avalon_spi_command
+ .text          0x00023d88       0x1c ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00023d88                alt_dcache_flush_all
+ .text          0x00023da4       0x2c ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .text          0x00023dd0       0xf0 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                0x00023e20                alt_dev_llist_insert
+ .text          0x00023ec0        0x0 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x00023ec0       0x1c ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x00023ec0                alt_icache_flush_all
+ .text          0x00023edc      0x158 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+                0x00023fbc                alt_io_redirect
+ .text          0x00024034      0x298 ../eth_bsp//libhal_bsp.a(alt_open.o)
+                0x00024174                open
+ .text          0x000242cc       0x80 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+                0x000242cc                alt_release_fd
+ .text          0x0002434c       0x20 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x0002434c                altera_nios2_qsys_irq_init
+ .text          0x0002436c       0x90 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+                0x0002436c                alt_find_dev
+ .text          0x000243fc      0x114 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+                0x000243fc                alt_find_file
+ .text          0x00024510       0xd4 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+                0x00024510                alt_get_fd
+ .text          0x000245e4        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .text          0x000245e4       0x48 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+                0x000245e4                memcmp
+ .text          0x0002462c       0x28 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+                0x0002462c                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                0x00024654                PROVIDE (__etext, ABSOLUTE (.))
+                0x00024654                PROVIDE (_etext, ABSOLUTE (.))
+                0x00024654                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00024654                . = ALIGN (0x4)
+                0x00024654                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x00024654                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x00024654                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x00024654                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x00024654                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x00024654                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00024654                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x00024654                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00024654                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00024654                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00024654                . = ALIGN (0x4)
+
+.rodata         0x00024654       0x2c
+                0x00024654                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00024654                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00024654       0x10 ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .rodata        0x00024664       0x10 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x00024674        0xc ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x00024680                . = ALIGN (0x4)
+                0x00024680                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00024654                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00024680      0x204 load address 0x00024884
+                0x00024680                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00024680                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00024680        0x0 ../eth_bsp//obj/HAL/src/crt0.o
+ .data          0x00024680        0x0 obj/default/ip_arp_udp_tcp.o
+ .data          0x00024680        0x0 obj/default/main.o
+ .data          0x00024680        0x0 obj/default/simple_server.o
+ .data          0x00024680        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .data          0x00024680        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .data          0x00024680        0x0 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x00024680        0x0 ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x00024680       0x2c ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x000246ac        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x000246ac        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000246ac        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000246ac        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .data          0x000246ac        0x0 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000246ac      0x1a8 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+                0x000246ac                alt_dev_null
+                0x000246d4                alt_fd_list
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .data          0x00024854        0x0 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .data          0x00024854        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .data          0x00024854        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .data          0x00024854        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+                0x0002c854                _gp = ABSOLUTE ((. + 0x8000))
+                0x0002c854                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00024854        0x2 obj/default/ip_arp_udp_tcp.o
+ *fill*         0x00024856        0x2 
+ .sdata         0x00024858       0x14 obj/default/simple_server.o
+ .sdata         0x0002486c       0x14 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+                0x0002486c                alt_fs_list
+                0x00024874                alt_dev_list
+                0x0002487c                alt_max_fd
+ .sdata         0x00024880        0x4 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+                0x00024880                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00024884                . = ALIGN (0x4)
+                0x00024884                _edata = ABSOLUTE (.)
+                0x00024884                PROVIDE (edata, ABSOLUTE (.))
+                0x00024884                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00024884                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00024a88      0x284
+                0x00024a88                __bss_start = ABSOLUTE (.)
+                0x00024a88                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00024a88                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00024a88       0x14 obj/default/ip_arp_udp_tcp.o
+ .sbss          0x00024a9c        0x4 obj/default/simple_server.o
+ .sbss          0x00024aa0        0xc ../eth_bsp//libhal_bsp.a(alt_main.o)
+                0x00024aa0                alt_argc
+                0x00024aa4                alt_argv
+                0x00024aa8                alt_envp
+ .sbss          0x00024aac        0x4 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+                0x00024aac                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x00024ab0                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00024ab0                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00024ab0        0x0 ../eth_bsp//obj/HAL/src/crt0.o
+ .bss           0x00024ab0        0x0 obj/default/ip_arp_udp_tcp.o
+ .bss           0x00024ab0        0x0 obj/default/main.o
+ .bss           0x00024ab0        0x0 obj/default/simple_server.o
+ .bss           0x00024ab0        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .bss           0x00024ab0        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .bss           0x00024ab0        0x0 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .bss           0x00024ab0        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .bss           0x00024ab0        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .bss           0x00024ab0        0x0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+ *(COMMON)
+ COMMON         0x00024ab0      0x25a obj/default/simple_server.o
+                0x00024ab0                bufUDP
+                0x00024bdd                buf
+                0x00024d0c                . = ALIGN (0x4)
+ *fill*         0x00024d0a        0x2 
+                0x00024d0c                __bss_end = ABSOLUTE (.)
+
+.epcs           0x00000000        0x0 load address 0x00024d0c
+                0x00000000                PROVIDE (_alt_partition_epcs_start, ABSOLUTE (.))
+ *(.epcs .epcs. epcs.*)
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                PROVIDE (_alt_partition_epcs_end, ABSOLUTE (.))
+                0x00024d0c                PROVIDE (_alt_partition_epcs_load_addr, LOADADDR (.epcs))
+
+.onchip_mem     0x00024d0c        0x0
+                0x00024d0c                PROVIDE (_alt_partition_onchip_mem_start, ABSOLUTE (.))
+ *(.onchip_mem .onchip_mem. onchip_mem.*)
+                0x00024d0c                . = ALIGN (0x4)
+                0x00024d0c                PROVIDE (_alt_partition_onchip_mem_end, ABSOLUTE (.))
+                0x00024d0c                _end = ABSOLUTE (.)
+                0x00024d0c                end = ABSOLUTE (.)
+                0x00024d0c                __alt_stack_base = ABSOLUTE (.)
+                0x00024d0c                PROVIDE (_alt_partition_onchip_mem_load_addr, LOADADDR (.onchip_mem))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/ip_arp_udp_tcp.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 obj/default/main.o
+ .comment       0x00000000       0x24 obj/default/simple_server.o
+ .comment       0x00000000       0x24 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .comment       0x00000000       0x24 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .comment       0x00000000       0x24 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .comment       0x00000000       0x24 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x378
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../eth_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/ip_arp_udp_tcp.o
+ .debug_aranges
+                0x00000048       0x20 obj/default/main.o
+ .debug_aranges
+                0x00000068       0x20 obj/default/simple_server.o
+ .debug_aranges
+                0x00000088       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x000000a8       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .debug_aranges
+                0x000000c8       0x20 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x000000e8       0x20 ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000108       0x20 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000128       0x20 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000148       0x20 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x00000168       0x20 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000188       0x20 ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .debug_aranges
+                0x000001a8       0x20 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x000001c8       0x20 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x000001e8       0x20 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000208       0x18 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000220       0x20 ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000240       0x20 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x00000260       0x20 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000280       0x20 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x000002a0       0x20 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x000002c0       0x20 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x000002e0       0x20 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000300       0x20 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000320       0x18 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000338       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000358       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x4616
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x7a ../eth_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000007a      0x64d obj/default/ip_arp_udp_tcp.o
+ .debug_info    0x000006c7       0xde obj/default/main.o
+ .debug_info    0x000007a5      0xd79 obj/default/simple_server.o
+ .debug_info    0x0000151e       0xb8 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_info    0x000015d6       0xd9 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .debug_info    0x000016af      0x135 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x000017e4      0x126 ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000190a      0x413 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00001d1d      0x3da ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x000020f7      0x1bc ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000022b3      0x19f ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00002452      0x18b ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .debug_info    0x000025dd       0x90 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000266d      0x4e3 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00002b50      0x1b9 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00002d09       0xa3 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00002dac       0x90 ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00002e3c      0x4f0 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x0000332c      0x3f0 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000371c      0x2dd ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000039f9       0x90 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00003a89      0x30d ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00003d96      0x30c ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x000040a2      0x339 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x000043db       0x84 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x0000445f       0xf1 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x00004550       0xc6 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x00000000     0x15ae
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../eth_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012      0x185 obj/default/ip_arp_udp_tcp.o
+ .debug_abbrev  0x00000197       0x92 obj/default/main.o
+ .debug_abbrev  0x00000229      0x259 obj/default/simple_server.o
+ .debug_abbrev  0x00000482       0x6f /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x000004f1       0x8e /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .debug_abbrev  0x0000057f       0x9d ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000061c       0xa9 ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x000006c5      0x155 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000081a       0xf7 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x00000911       0xd5 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000009e6       0xd5 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00000abb       0x8a ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .debug_abbrev  0x00000b45       0x42 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000b87       0xd9 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000c60      0x114 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000d74       0x5a ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000dce       0x42 ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000e10      0x114 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x00000f24      0x148 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x0000106c       0xde ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x0000114a       0x42 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x0000118c       0xf0 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000127c       0xf0 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000136c      0x10d ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00001479       0x37 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x000014b0       0x7f /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000152f       0x7f /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+
+.debug_line     0x00000000     0x1bda
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 ../eth_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x1ed obj/default/ip_arp_udp_tcp.o
+ .debug_line    0x00000253       0x6f obj/default/main.o
+ .debug_line    0x000002c2      0x4c2 obj/default/simple_server.o
+ .debug_line    0x00000784       0x80 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_line    0x00000804      0x17e /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .debug_line    0x00000982       0x92 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000a14       0x9d ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x00000ab1      0x13c ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000bed      0x114 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000d01      0x101 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000e02       0xf8 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00000efa       0xb6 ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .debug_line    0x00000fb0       0x51 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00001001      0x127 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00001128       0xd0 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x000011f8       0x51 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00001249       0x4f ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00001298      0x164 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x000013fc      0x128 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .debug_line    0x00001524       0xb0 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x000015d4       0x51 ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x00001625       0xb9 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x000016de       0xd5 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x000017b3       0xd4 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x00001887       0x60 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x000018e7      0x17f /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .debug_line    0x00001a66      0x174 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+
+.debug_frame    0x00000000      0xbf8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x208 obj/default/ip_arp_udp_tcp.o
+ .debug_frame   0x00000208       0x64 obj/default/main.o
+ .debug_frame   0x0000026c      0x504 obj/default/simple_server.o
+ .debug_frame   0x00000770       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_frame   0x00000790       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .debug_frame   0x000007b0       0x48 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000007f8       0x2c ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000824       0x64 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000888       0x48 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x000008d0       0x2c ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x000008fc       0x2c ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000928       0x2c ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .debug_frame   0x00000954       0x2c ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000980       0x2c ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x000009ac       0x48 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x000009f4       0x2c ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000a20       0x4c ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000a6c       0x68 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000ad4       0x30 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x00000b04       0x2c ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x00000b30       0x2c ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000b5c       0x2c ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000b88       0x30 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000bb8       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .debug_frame   0x00000bd8       0x20 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+
+.debug_str      0x00000000     0x117b
+ *(.debug_str)
+ .debug_str     0x00000000      0x29a obj/default/ip_arp_udp_tcp.o
+                                0x2eb (size before relaxing)
+ .debug_str     0x0000029a       0x18 obj/default/main.o
+                                0x10a (size before relaxing)
+ .debug_str     0x000002b2      0x368 obj/default/simple_server.o
+                                0x48b (size before relaxing)
+ .debug_str     0x0000061a       0xd4 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+                                0x12b (size before relaxing)
+ .debug_str     0x000006ee       0xed /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+                                0x18b (size before relaxing)
+ .debug_str     0x000007db      0x137 ../eth_bsp//libhal_bsp.a(alt_load.o)
+                                0x1d5 (size before relaxing)
+ .debug_str     0x00000912       0x75 ../eth_bsp//libhal_bsp.a(alt_main.o)
+                                0x159 (size before relaxing)
+ .debug_str     0x00000987      0x168 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+                                0x2a8 (size before relaxing)
+ .debug_str     0x00000aef       0x77 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                0x298 (size before relaxing)
+ .debug_str     0x00000b66       0x48 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x00000bae       0x4a ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                0x1d8 (size before relaxing)
+ .debug_str     0x00000bf8       0xb3 ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+                                0x1a3 (size before relaxing)
+ .debug_str     0x00000cab       0x34 ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x118 (size before relaxing)
+ .debug_str     0x00000cdf      0x125 ../eth_bsp//libhal_bsp.a(alt_dev.o)
+                                0x2c8 (size before relaxing)
+ .debug_str     0x00000e04       0x63 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                                0x18f (size before relaxing)
+ .debug_str     0x00000e67       0x14 ../eth_bsp//libhal_bsp.a(alt_errno.o)
+                                0x108 (size before relaxing)
+ .debug_str     0x00000e7b       0x34 ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                0x118 (size before relaxing)
+ .debug_str     0x00000eaf       0x56 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+                                0x2d9 (size before relaxing)
+ .debug_str     0x00000f05       0x2f ../eth_bsp//libhal_bsp.a(alt_open.o)
+                                0x20e (size before relaxing)
+ .debug_str     0x00000f34       0x28 ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+                                0x1a2 (size before relaxing)
+ .debug_str     0x00000f5c       0x3b ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                0x11f (size before relaxing)
+ .debug_str     0x00000f97       0x24 ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+                                0x1af (size before relaxing)
+ .debug_str     0x00000fbb       0x26 ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+                                0x1bd (size before relaxing)
+ .debug_str     0x00000fe1       0x30 ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+                                0x1df (size before relaxing)
+ .debug_str     0x00001011       0xe0 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-int_errno.o)
+                                0x184 (size before relaxing)
+ .debug_str     0x000010f1       0x45 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+                                0x18b (size before relaxing)
+ .debug_str     0x00001136       0x45 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+                                0x191 (size before relaxing)
+
+.debug_loc      0x00000000     0x1168
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x318 obj/default/ip_arp_udp_tcp.o
+ .debug_loc     0x00000318       0x84 obj/default/main.o
+ .debug_loc     0x0000039c      0x7bd obj/default/simple_server.o
+ .debug_loc     0x00000b59       0x93 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_loc     0x00000bec       0x6c /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memset.o)
+ .debug_loc     0x00000c58       0x58 ../eth_bsp//libhal_bsp.a(alt_load.o)
+ .debug_loc     0x00000cb0       0x2c ../eth_bsp//libhal_bsp.a(alt_main.o)
+ .debug_loc     0x00000cdc       0x84 ../eth_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000d60       0x58 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_loc     0x00000db8       0x2c ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x00000de4       0x2c ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x00000e10       0x2c ../eth_bsp//libhal_bsp.a(altera_avalon_spi.o)
+ .debug_loc     0x00000e3c       0x2c ../eth_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000e68       0x2c ../eth_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x00000e94       0x58 ../eth_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x00000eec       0x2c ../eth_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x00000f18       0x58 ../eth_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_loc     0x00000f70       0x84 ../eth_bsp//libhal_bsp.a(alt_open.o)
+ .debug_loc     0x00000ff4       0x2c ../eth_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x00001020       0x2c ../eth_bsp//libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x0000104c       0x2c ../eth_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x00001078       0x2c ../eth_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_loc     0x000010a4       0x2c ../eth_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_loc     0x000010d0       0x6f /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000113f       0x29 /home/taras/altera/13.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libsmallc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 ../eth_bsp//obj/HAL/src/crt0.o
+                0x0002a7f8                __alt_data_end = 0x2a7f8
+                0x0002a7f8                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x00024d0c                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x00024d0c                PROVIDE (__alt_heap_start, end)
+                0x0002a7f8                PROVIDE (__alt_heap_limit, 0x2a7f8)
+OUTPUT(eth_test.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0x38
+ .debug_ranges  0x00000000       0x20 ../eth_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x18 ../eth_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
